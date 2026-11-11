@@ -1,0 +1,32 @@
+
+# Build directories
+build/
+build-mingw/
+
+# Compiled files
+*.exe
+*.obj
+*.obj.d
+*.dll
+*.a
+*.o
+
+# Environment files
+.env
+**/.env
+
+# Dependencies
+node_modules/
+
+# Generated packet captures
+*.pcap
+
+# IDE and Windows files
+.vscode/
+*.lnk
+
+# Frontend build output
+frontend/dist/
+dist/
+
+/dpi_engine
